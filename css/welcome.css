@@ -1,0 +1,45 @@
+
+@import url(https://fonts.googleapis.com/css?family=Oleo+Script); 
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300);
+@import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap');
+
+.bem-vindo {
+  height: 33rem;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../assets/img/estrutura.barril.jpg);
+  background-position: center;
+  background-size: cover;
+  display: table;
+  border-bottom: 5px solid #504236;
+}
+.bem-vindo .__animacao {
+  display: table-cell;
+  vertical-align: top;
+  padding: 10%;
+  text-align: left;
+}
+.bem-vindo .__animacao .animacao-texto {
+  border-left: 2px solid #fff;
+  padding: 0.5em 0 0 2em;
+}
+.bem-vindo .__animacao .animacao-texto h3 {
+  color: #fff;
+  font-family: "Diplomata SC";
+  font-size: 3.4rem;
+}
+@media (max-width: 414px) {
+  .bem-vindo .__animacao .animacao-texto h3 {
+    font-size: 2rem;
+  }
+}
+.bem-vindo .__animacao .animacao-texto h2 {
+  color: #fff;
+  font-family: "Diplomata SC";
+  font-weight: 100;
+  font-size: 1.8rem;
+}
+@media (max-width: 414px) {
+  .bem-vindo .__animacao .animacao-texto h2 {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,22 @@
+footer {
+    display: block;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    padding: 0.3em;
+    background-color: #D89385;
+    text-align: center;
+    color: #fff;
+    font-family: "Raleway";
+    border-top: 5px solid #504236;
+  }
+
+  footer .social-media{
+    justify-self: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+  footer .social-media img{
+    margin-left: 1.5em;
+  }

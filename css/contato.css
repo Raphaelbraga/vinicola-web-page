@@ -1,0 +1,46 @@
+.contato{
+    display: block;
+    padding-top: 1em;
+    text-align: center;
+    height: 30em;
+    font-family: "Raleway";
+    background-color: #D89385;
+}
+
+.contato form {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    width: 80%;    
+}
+
+.contato form [type="submit"] {
+    height: 50px;
+    width: 50%;
+    background-color: rgb(132, 14, 201);
+    color: white;
+    font-weight: bold;
+    align-self: center;
+}
+
+.contato form [type="submit"]:hover {
+    cursor: pointer;
+}
+
+.contato textarea{
+    margin-top: 20px;
+}
+
+.contato input {
+    margin-top: 10px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+.contato p{
+    color: #fff;
+    font-size:1em ;
+    font-family: "Raleway";  
+} 

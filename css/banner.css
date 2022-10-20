@@ -1,0 +1,27 @@
+.banner{
+    padding-top: 1.5em;
+    display: flex;
+    flex-direction: column;
+    background-color: #D89385;
+    text-align: center;
+    border-bottom: 5px solid #504236;
+    
+}
+
+.banner h3{
+    color: #fff;
+    font-size:2em ;
+    font-family: "Raleway";
+    padding-bottom: .5em;
+}
+
+.banner p{
+    color: #fff;
+    font-size:1em ;
+    font-family: "Raleway"; 
+    margin-bottom: 2em;   
+}
+
+.banner .owl-carousel img {
+    height: 320px;
+}

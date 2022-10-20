@@ -1,0 +1,15 @@
+.header{
+    background-color:#D89385;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px solid #504236;
+    padding: 20px 10px;
+    align-items: center;
+}
+
+.header h1{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    font-family: "Diplomata SC";
+}
